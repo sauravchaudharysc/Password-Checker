@@ -2,7 +2,7 @@
 
 **Hackers uses something called dictionary attack and just tries to log into websites using this massive list information.**
 
-​														In this project we will use the API provided by the websites for us to check our password in secure way. **Troy Hunt** who’s a very famous security researches created a websites [Know More](https://haveibeenpwned.com/About)
+​														In this project we will use the API provided by the website for us to check our password in secure way. **Troy Hunt** who’s a very famous security researches created this website [Know More](https://haveibeenpwned.com/About)
 
 This site provide the breaches occurred . So if we type our password and check it will return the count how many times it has been hacked. But checking this on the website is risky even. Even though the website is https encrypted,we shouldn’t trust this for password we don’t want to send your password like this over the internet because what’s happening as soon as I click this is being transferred to some server somewhere in world. So we are going to use API for this.
 
@@ -40,11 +40,9 @@ This site provide the breaches occurred . So if we type our password and check i
 
   **import hashlib** :- A built is module for hashing. So, with this we can do SHA1 hashing. 
 
-  ​		*Sha1password=hashlib.sha1(password.encode(‘utf-8’).hexdigest().upper()*
-
-  ​         Hexdigest():- It returns a string object of double length, containing only hexadecimal digits.
-
-  ​		  upper():-To convert it into upper case.
+         *Sha1password=hashlib.sha1(password.encode(‘utf-8’).hexdigest().upper()
+          Hexdigest():- It returns a string object of double length, containing only hexadecimal digits.
+          upper():-To convert it into upper case.
 
   <u>Hash Function</u>
 
