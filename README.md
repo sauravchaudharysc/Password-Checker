@@ -8,7 +8,7 @@ This site provide the breaches occurred . So if we type our password and check i
 
 ## Password API 
 
-- Install request module. $ pip install request
+- Install request module. $ pip install requests
 
   ​	Request module allows us to make request. It's kind of like having a browser without the actual browser. So, we can use our request module with the password API URL.
 
