@@ -6,6 +6,13 @@
 
 This site provide the breaches occurred . So if we type our password and check it will return the count how many times it has been hacked. But checking this on the website is risky even. Even though the website is https encrypted,we shouldn’t trust this for password we don’t want to send your password like this over the internet because what’s happening as soon as I click this is being transferred to some server somewhere in world. So we are going to use API for this.
 
+## API
+Api is something through which we can have seamless connectivity.It used by various programs to communicate between them. 
+
+Suppose we book an airline ticket.Suppose i want to book a ticket in indigo airlines.So indigo website is rarely used to do the booking.We do it from makemytrip,goibibo etc. 
+**How is this possible ?** 
+This is possible just because of API. 
+
 ## Password API 
 
 - Install request module. $ pip install requests
